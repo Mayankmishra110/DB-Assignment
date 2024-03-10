@@ -7,7 +7,7 @@
 
 # Product Table:
 
-# id: Primary key for the "Product" table.
+** id: Primary key for the "Product" table. **
 name: Name of the product. <br>
 desc: Description of the product. <br>
 SKU: Stock Keeping Unit, a unique identifier for the product. <br>
@@ -18,9 +18,11 @@ discount_id: Foreign key referencing the primary key id in the "Discount" table.
 created_at: Time indicating when the record was created. <br>
 modified_at: Time indicating when the record was last modified. <br>
 deleted_at: Time indicating when the record was deleted. <br>
-Product_Category Table:
+
+<br>
+  Product_Category Table:
  <br>
-# id: Primary key for the "Product_Category" table.
+** id: Primary key for the "Product_Category" table. **
 
 name: Name of the product category. <br>
 desc: Description of the product category. <br>
