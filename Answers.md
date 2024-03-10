@@ -30,9 +30,11 @@ deleted_at: Times indicating when the record was soft-deleted.
 
 The foreign key relationship is established through the category_id column in the "Product" table, which references the primary key id in the "Product_Category" table. This means that each entry in the "Product" table is associated with a specific category in the "Product_Category" table. It enables the retrieval of detailed information about the category to which a product belongs, facilitating organized and efficient data management.
 
+<br>
+
 # 2. How could you ensure that each product in the "Product" table has a valid category assigned to it?:
 
- # For making sure in every product in the "Product" table belongs to the right category, we use foreign key. This rule says that category listed in the "Product" table must match a valid category in the "Product_Category" table. It's like having a buddy system to check that each product has a real category friend, avoiding confusion and keeping our data organized.
+# Ans-: For making sure in every product in the "Product" table belongs to the right category, we use foreign key. This rule says that category listed in the "Product" table must match a valid category in the "Product_Category" table. It's like having a buddy system to check that each product has a real category friend, avoiding confusion and keeping our data organized.
 
 1. **Connection with "Product_Category":**
    - Every product in the "Product" table is linked to a category through a special link called `category_id`.
